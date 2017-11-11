@@ -1,2 +1,2 @@
 # pyr2t
-Scrapes reddit and posts to tumblr
+Python script that scrapes reddit and posts to tumblr

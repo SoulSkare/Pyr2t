@@ -147,11 +147,11 @@ def dothethings(reddit_sub, reddit_filter, temp_folder):
 
 Reddit = reddit2tumblr.Reddit()
 Tumblr = reddit2tumblr.Tumblr(config["YOUR_CONSUMER_KEY"], config["YOUR_CONSUMER_SECRET"], config["OAUTH_TOKEN"], config["OAUTH_TOKEN_SECRET"])
-#Tumblr = reddit2tumblr.Tumblr("NAhgZXsN24njfW5ShtCAtskmFP8xlZdCAjvwFRNyU3gj5wl8LY", "ZNvEEFN3977Tjc0Mw4cP0hkzgMsIYLFrWkVsnLqNa1x22t79wh", "fojfZ7ODSK5IPdKX5GmPAPQMqa71hwjzuhSjInaxYW02k7cjHC", "xM1QsLH5qwg2XPTfaVUqFl61STB753j9b9oGrH1PvUMyexnpa2")
+#Tumblr = reddit2tumblr.Tumblr("", "", "", "")
 
 
 #dothethings(reddit_sub=config["reddit_sub"], reddit_filter=config["reddit_filter"], temp_folder=config["temp_folder"])
-#dothethings(reddit_sub='pussy', reddit_filter='hot', temp_folder='./temp/')
+#dothethings(reddit_sub='gifs', reddit_filter='hot', temp_folder='./temp/')
 
 dosinglething()
 
